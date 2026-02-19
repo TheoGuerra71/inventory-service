@@ -42,7 +42,7 @@ Certifique-se de ter instalado em sua máquina:
 ### Passo a Passo
 
 **1. Clone o repositório**
-`git clone https://github.com/TheoGuerra71/Projeto-para-Gerenciamento-de-estoque.git`
+`git clone https://github.com/TheoGuerra71/inventory-service.git`
 
 **2. Compile e execute o projeto**
 Abra o projeto na sua IDE, clique com o botão direito sobre a raiz do projeto e selecione **"Build Project"** (ou use o Maven diretamente). Em seguida, clique em **"Run"**.
