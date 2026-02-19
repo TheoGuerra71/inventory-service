@@ -1,30 +1,46 @@
-# sgv
-Sistema Gerenciador de Vendas
-Sistema-exemplo para os alunos da disciplina de Programação Orientada a Objetos em Java.
+# 📦 SGV - Sistema Gerenciador de Vendas & Estoque
 
-1- Desinstale qualquer jdk existente;
-1- Instale a JDK da Oracle (java 17)
-2- Instale o NetBeans
-3- Clone o projeto
-    a- Clique em: Team -> Git -> Clone...
-    b- coloque o seguinte endereço: https://github.com/pablorangel82/sgv.git. Não é necessário usuario e senha;
-    c- finish
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![H2 Database](https://img.shields.io/badge/H2_Database-003545?style=for-the-badge&logo=database&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
-4- Clique com o botão direito sobre o projeto. Clique em "build project"
-5- Agora, clique com o botão direito sobre o projeto. Clique em "Run"
-6- Abra o navegador. Escreva o endereço: https://localhost:8443/h2-console
-7- Coloque no campo JDBC URL: jdbc:h2:~/db
-8- Coloque no campo user: sgv
-9- Coloque no campo password: 123  
+## 📌 Sobre o Projeto
 
-10- Cole o seguinte comando na caixa de comandos: 
+O **SGV (Sistema Gerenciador de Vendas)** é uma aplicação web desenvolvida como projeto prático para aprofundamento em **Programação Orientada a Objetos (POO)** em Java. 
 
-insert into Usuario (login,senha, papel, id) values
-('admin','$2a$10$K6PG.YUsSpMT/LOyPpeB5eUVdPImfDfSH.N0xLHAC1NbgbIBhraHe','ADMIN',1);
+O objetivo do sistema é simular um ambiente real de gestão, permitindo o controle de acesso de usuários e a administração de dados através de uma interface web, conectada a um banco de dados em memória.
 
-11- Clique no botão run (botão verde);
+### 🚀 Principais Aprendizados e Funcionalidades
+* Aplicação prática de conceitos de POO (Encapsulamento, Herança, Polimorfismo).
+* Gerenciamento de dependências e build com Maven.
+* Configuração e integração com banco de dados em memória (H2 Database).
+* Criptografia e autenticação de senhas (Hash).
+* Criação de interface web interativa (HTML/CSS) servida pelo backend Java.
 
-12- No navegador, escreva o endereço: https://localhost:8443/.
+---
 
-13- Logue com o usuario admin e senha 123
-14- Pronto! Sistema configurado!
+## 🛠️ Tecnologias Utilizadas
+
+* **Backend:** Java 17
+* **Frontend:** HTML5
+* **Banco de Dados:** H2 Database Engine (In-memory)
+* **Gerenciador de Dependências:** Maven
+
+---
+
+## ⚙️ Como executar o projeto localmente
+
+Siga as instruções abaixo para configurar e rodar o projeto na sua máquina.
+
+### Pré-requisitos
+Certifique-se de ter instalado em sua máquina:
+* [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) (Oracle ou OpenJDK)
+* Uma IDE de sua preferência (NetBeans, IntelliJ IDEA ou Eclipse)
+* Git
+
+### Passo a Passo
+
+**1. Clone o repositório**
+```bash
+git clone [https://github.com/TheoGuerra71/Projeto-para-Gerenciamento-de-estoque.git](https://github.com/TheoGuerra71/Projeto-para-Gerenciamento-de-estoque.git)
